@@ -1,0 +1,127 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+/* Header Style */
+.header{
+  background-color: #D43790;
+  height: 100px;
+}
+.cart-div{
+  float:right;
+  margin: 30px;
+  position: relative;
+}
+.cart-div img{
+  width: 30px;
+}
+.cart-div span{
+  background-color: green;
+  border-radius: 100%;
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  top: -10px;
+  right: 0px;
+  color: #fff;
+}
+.logo{
+  color: #fff;
+  float: left;
+    margin: 0;
+    padding: 20px;
+}
+
+/* end header style */
+
+/* product UI */
+.product-item{
+  float: left;
+    border: 9px solid #00ffbf;
+    padding: 20px;
+    margin: 100px;
+    height: 25vh;
+  /* background-color: #fdfde1; */
+  }
+  .product-item img{
+  height: 140px;
+  } 
+/* end product UI */
+
+/* cart page style */
+.cart-page-container{
+  display: flex;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+/* end cart page style */
+
+.custom-table {
+  width: 60%;
+  border-collapse: collapse;
+}
+
+.custom-table th,
+.custom-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.custom-table th {
+  background-color: #f2f2f2;
+}
+
+/* .price-details{
+  float: right;
+} */
+
+vertical-table {
+  display: flex;
+  flex-direction: column;
+  width: 200px; /* Adjust the width as needed */
+  font-size: 16px;
+}
+
+.table-row {
+  display: flex;
+  margin-bottom: 8px; /* Adjust the spacing between rows */
+}
+
+.table-cell {
+  width: 100px; /* Adjust the cell width as needed */
+  margin-right: 8px; /* Adjust the spacing between cells */
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
